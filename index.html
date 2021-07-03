@@ -1,30 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-<header>
-    <h1>Utopia</h1>
-
-    <nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utopia Travel Search</title>
+  </head>
+  <body>
+    <header>
+      <h1>Utopia</h1>
+      <nav>
         <ul>
-            <li>
-                <a href="#about-us">About us</a>
-            </li>
-            <li>
-                <a href="city-search">Where do you want to go</a>
-            </li>
-            <li>
-                <a href="#currency">Currency</a>
-            </li>
+          <li>
+            <a href="#about-us">About us</a>
+          </li>
+          <li>
+            <a href="#city-search">City Search</a>
+          </li>
+          <li>
+            <a href="#weather">Weather</a>
+          </li>
+          <li>
+            <a href="#currency">Currency</a>
+          </li>
         </ul>
-    </nav>
+      </nav>
+    </header>
+    <main>
+      <div id="about-us"></div>
 
-</header>
-    
-</body>
+      <div>
+        <div id="city-search"></div>
+        <div id="weather"></div>
+        <div id="currency"></div>
+      </div>
+
+      <div id="continent">
+        <button id="na"></button>
+        <button id="sa"></button>
+        <button id="eu"></button>
+        <button id="as"></button>
+        <button id="af"></button>
+        <button id="aus"></button>
+      </div>
+
+      <script src="./script.js"></script>
+    </main>
+  </body>
 </html>

@@ -4,29 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/assets/stylsheet.css" />
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="/assets/css/stylesheet.css" />
   </head>
   <body>
     <header>
-      <h1>Utopia</h1>
       <nav>
-        <ul>
-          <li>
-            <a href="#about-us">About us</a>
-          </li>
-          <li>
-            <a href="#city-search">Where do you want to go</a>
-          </li>
-          <li>
-            <a href="#currency">Currency</a>
-          </li>
-        </ul>
+        <div class="nav">
+          <a href="#" class="brand-logo left">Utopia</a>
+          <ul class="right">
+            <li>
+              <a href="#about-us">About us</a>
+            </li>
+            <li>
+              <a href="#api-search">Api Search</a>
+            </li>
+            <li>
+              <a href="#gallery">Gallery</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </header>
-    <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+      <main class="container">
+        <section id="about-us">
+          <h2>About us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at corporis soluta mollitia eum autem, cum aperiam amet voluptates reiciendis molestias repellendus vero nulla fugit perferendis voluptatibus, magnam a dolore tenetur! Fugit neque tempore labore ratione voluptatibus cum soluta quod.</p>
+        </section>
+        <section class="">
+          <div class="row">
+            <div class="col l3 s12">
+              <h2>City Search</h2>
+              <div class="input-field">
+                <input type="text" id="city-search">
+                <label for="city-search">City</label>
+              </div>
+            </div>
+            <div class="col l4 s12">
+              <h2>Weather Search</h2>
+              <div class="input-field">
+                <input type="text" id="weather-search">
+                <label for="city-search">Weather</label>
+              </div>
+            </div>
+            <h2 class="col l5 s12">Currency converter</h2>
+          </div>
+      </main>
+      </div>
+
+      <script src="/assets/js/script.js"></script>
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </main>
   </body>
 </html>

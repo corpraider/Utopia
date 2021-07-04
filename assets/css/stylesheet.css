@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  --primary-color: #000000;
+  --secondary-color: #000000;
+  --ternary-color: #000000;
+}
+
+.container {
+  width: 100%;
+}
+
+#about-us {
+  text-align: center;
+}

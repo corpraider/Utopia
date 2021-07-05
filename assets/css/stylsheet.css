@@ -1,0 +1,93 @@
+:root {
+  --primary-color: #f6f9fa;
+  --secondary-color: #1f3368;
+  --tertiary-color: rgb(97, 136, 161);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+}
+
+html {
+  scroll-padding-top: 60px; /* height of sticky header */
+}
+
+h1 {
+  font-family: Bradley Hand, cursive;
+  font-size: 50px;
+  color: white;
+}
+
+header {
+  padding: 20px 35px;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header a {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: Bradley Hand, cursive;
+}
+
+#about-us ul {
+  color: white;
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+  list-style: none;
+}
+
+#continent {
+  display: block;
+  text-align: center;
+}
+
+a {
+  padding: 20px 20px;
+}
+
+a:hover {
+  font-size: 20px;
+}
+
+.cont:hover {
+  color: var(--secondary-color);
+  font-size: 30px;
+  font-size-adjust: 20px;
+  border-radius: 10px;
+  text-shadow: none;
+}
+.card {
+  margin: 0 0 20px 0;
+  border: 3px solid var(--dark);
+  border-radius: var(--border-radius);
+}

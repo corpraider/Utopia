@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #8cda0f;
-    --secondary-color: #023b26;
-    --tertiary-color: #014412;
+    --primary-color: #f6f9fa;
+    --secondary-color: #1f3368;
+    --tertiary-color: rgb(97, 136, 161);
 }
 
 * {
@@ -11,8 +11,14 @@
   }
 
  html {
-    scroll-padding-top: 60px; /* height of sticky header */
+    scroll-padding-top: 60px; /* height of sticky header */ 
   }
+
+ h1 {
+    font-family: Bradley Hand, cursive;
+    font-size: 50px;
+    color: white;
+ }
 
  header {
     padding: 20px 35px;
@@ -23,7 +29,6 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-image: url("./images/Background-website-01.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -44,6 +49,14 @@
   }
 
 p {
+    text-align: center;
+    color: white;
+    font-family: Bradley Hand, cursive;
+}
+
+#about-us ul {
+    color: white;
+    font-family: Bradley Hand, cursive;
     text-align: center;
 }
 
@@ -67,6 +80,11 @@ a:hover{
     border-radius: 10px;
     text-shadow: none;
 }
+.card {
+    margin: 0 0 20px 0;
+    border: 3px solid var(--dark);
+    border-radius: var(--border-radius);
+  }
 
 
 

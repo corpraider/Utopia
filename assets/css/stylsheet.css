@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #8cda0f;
+    --secondary-color: #023b26;
+    --tertiary-color: #014412;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+  }
+
+ html {
+    scroll-padding-top: 60px; /* height of sticky header */
+  }
+
+ header {
+    padding: 20px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-image: url("./images/Background-website-01.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+  }
+
+  header a {
+    text-decoration:underline;
+    color: var(--primary-color);
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+p {
+    text-align: center;
+}
+
+#continent {
+    display:block;
+    text-align:center
+}
+
+a {
+    padding: 20px 20px;
+}
+
+a:hover{
+    font-size: 20px;
+}
+
+.cont:hover {
+    color: var(--secondary-color);
+    font-size:30px;
+    font-size-adjust: 20px;
+    border-radius: 10px;
+    text-shadow: none;
+}
+
+
+
+ 
+
+
+
+
+
+

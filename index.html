@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Utopia Travel Search</title>
-    <link rel="stylesheet" href="./assets/stylsheet.css"/>
+    <link rel="stylesheet" href="assets/css/stylsheet.css"/>
   </head>
   <body>
     <header>
-      <h1>Utopia</h1>
+      <h1>Utopia Travel</h1> 
       <nav>
         <ul>
           <li>
@@ -28,7 +28,26 @@
       </nav>
     </header>
     <main>
-      <div id="about-us"></div>
+      <div id="about-us">
+      <p>
+        Welcome to Travel Utopia! 
+        Do you still have some doubts where to go? 
+        We are ready to give some additional information about cities!
+      </p>
+      <p>
+        With us you can: 
+      </p>
+      <ul>
+        <li>search any city in the world </li>
+        <li>see current weather in the city  </li>
+        <li>can convert dollars in current currency</li>
+        <li> but if you do not know which city you want to visit, we have list of all continents with list of cities in it </li>
+      </ul>
+      <p>
+        Let's start!
+      </p>
+
+    </div>
 
       <div>
         <div id="city-search"></div>
@@ -36,14 +55,41 @@
         <div id="currency"></div>
       </div>
 
-      <div id="continent">
+      <section id="continent">
+        <!--
         <button id="na"></button>
         <button id="sa"></button>
         <button id="eu"></button>
         <button id="as"></button>
         <button id="af"></button>
         <button id="aus"></button>
-      </div>
+        -->
+        <a class="cont" href="https://en.wikipedia.org/wiki/List_of_North_American_cities_by_population" target="_blank">
+        List of Cities in North America
+        </a> 
+
+        <a class="cont" href="https://en.wikipedia.org/wiki/List_of_cities_in_South_America" target="_blank">
+          List of Cities in South America
+        </a>
+
+        <a class="cont" href="https://en.wikipedia.org/wiki/List_of_European_cities_by_population_within_city_limits" target="_blank" >
+          List of Cities in Europe
+        </a>
+
+        <a class="cont" href="https://en.wikipedia.org/wiki/List_of_Asian_cities_by_population_within_city_limits" target="_blank" >
+          List of Cities in Asia
+        </a>
+
+        <a class="cont" href="https://en.wikipedia.org/wiki/List_of_Asian_cities_by_population_within_city_limits" target="_blank" >
+          List of Cities in Africa
+        </a>
+
+        <a class="cont" href="https://en.wikipedia.org/wiki/List_of_cities_in_Australia_by_population" target="_blank">
+          List of Cities in Austrelia
+        </a>
+
+      </section>
+        
 
       <script src="./script.js"></script>
     </main>

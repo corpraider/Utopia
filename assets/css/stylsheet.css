@@ -51,13 +51,25 @@
 p {
     text-align: center;
     color: white;
+    text-size-adjust:initial;
     font-family: Bradley Hand, cursive;
+}
+
+#about-us {
+  color: white;
+  font-family: Bradley Hand, cursive;
+  text-align: center;
+  list-style-type: none;
+  font-size:2rem;
+
 }
 
 #about-us ul {
     color: white;
     font-family: Bradley Hand, cursive;
     text-align: center;
+    list-style-type: none;
+    font-size:1.5rem;
 }
 
 #continent {
@@ -67,10 +79,11 @@ p {
 
 a {
     padding: 20px 20px;
+    margin:auto;
 }
 
 a:hover{
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .cont:hover {

@@ -18,6 +18,7 @@
     font-family: Bradley Hand, cursive;
     font-size: 50px;
     color: white;
+    text-shadow: 7px 7px #0a043b;
  }
 
  header {
@@ -53,6 +54,7 @@ p {
     color: white;
     text-size-adjust:initial;
     font-family: Bradley Hand, cursive;
+    text-shadow: 1.5px 1.5px #0a043b;
 }
 
 #about-us {
@@ -70,11 +72,28 @@ p {
     text-align: center;
     list-style-type: none;
     font-size:1.5rem;
+    text-shadow: 1.5px 1.5px #0a043b;
 }
 
 #continent {
     display:block;
-    text-align:center
+    text-align:center;
+    background: var(--tertiary-color);
+    opacity: 0.8;
+}
+
+#continent a{
+    color: white;
+    font-size: 18px;
+}
+
+#continent h1{
+    color: white;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px #0a043b
+}
+#continent a:hover{
+    font-size: 1.5rem;
 }
 
 a {
